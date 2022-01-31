@@ -2,7 +2,7 @@ import os
 import hikari
 import lightbulb
 from HelpHandler import Custodian
-import music
+
 
 with open("./Secret/token") as tok:
     _token = tok.read().strip()
@@ -17,8 +17,6 @@ sophia = lightbulb.BotApp(
     help_slash_command=True
 
 )
-sophia.load_extensions_from("./bot/extentions")
-
 
 @sophia.listen(hikari.StartedEvent)
 async def on_started(event: hikari.StartedEvent) -> None:
