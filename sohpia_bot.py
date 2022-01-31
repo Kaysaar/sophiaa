@@ -6,7 +6,7 @@ import music
 
 with open("./Secret/token") as tok:
     _token = tok.read().strip()
-from Bot import GUILD_ID, STDOUT_CHANNEL_IP
+import GUILD_ID, STDOUT_CHANNEL_IP
 
 sophia = lightbulb.BotApp(
     token=_token,
