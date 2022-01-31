@@ -6,7 +6,7 @@ from HelpHandler import Custodian
 
 with open("./Secret/token") as tok:
     _token = tok.read().strip()
-GUILD_ID= 
+GUILD_ID= [870732066147401778]
 STDOUT_CHANNEL_IP=
 
 sophia = lightbulb.BotApp(
