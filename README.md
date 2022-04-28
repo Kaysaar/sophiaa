@@ -14,4 +14,5 @@ Somme Basic Commmands used by the bot
 **_CHANGE LOG*_*
 
 **Verson 0.1.1**
+
 Added help commmmand and other quality of life immprovemments to help navigate users. Fixed bug that after 6 minutes music stops playing.
